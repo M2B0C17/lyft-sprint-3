@@ -9,5 +9,36 @@ Colors:
 
 body{
 	font-family: 'Raleway', sans-serif;
-	background-color: blue;
+	background-color: whitesmoke;
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	background-color: #E54E79;
+	width: 4000px;
+	height: 60px;
+}
+
+.logito{
+	position: relative;
+  	left: 323px;;
+	top: 10px;
+}
+
+.enlaceNav a{
+	clear: left;
+	margin: 0; /* cero margen */
+	padding: 0; /* relleno : 0 */
+	overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
+	display: inline-block;
+	color: white; /* color al texto */
+	text-align: center;
+	padding: 26px;
+	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+	color: white;
+	position: relative;
+	left: 980px;
+	bottom: 50px;
+	height: 10px;
 }
