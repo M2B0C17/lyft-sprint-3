@@ -32,7 +32,7 @@ nav{
 	padding: 0; /* relleno : 0 */
 	overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
 	display: inline-block;
-	color: white; /* color al texto */
+  	color: #EDE9E2; /* color al texto */
 	text-align: center;
 	padding: 26px;
 	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
@@ -41,4 +41,8 @@ nav{
 	left: 980px;
 	bottom: 50px;
 	height: 10px;
+}
+
+.enlaceNav a:hover{
+	background-color: #E56385;
 }
