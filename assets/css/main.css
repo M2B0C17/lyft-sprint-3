@@ -23,7 +23,7 @@ header{
 
 .menuPink{
 	background-color: #E54E79;
-	width: 1318px;
+	width: 1333px;
 	height: 60px;
 }
 
@@ -86,6 +86,8 @@ header{
 	text-transform: uppercase;
 }
 
+/* input */
+
 #input{
 	clear: both;
 	position: relative;
@@ -93,20 +95,35 @@ header{
 	bottom: 291px;
 	width: 402px;
 	height: 35px;
-	border:none;
-	background-color: #EDE9E2;
+	border: none; /* sacar el borde tipico del input */
+	background-color: #EDE9E2; 
 	border-bottom: 1px solid #75726C; /* linea bajo input */
 }
 
-/*
-
-#corazon{
-  position: relative;
-  left: 565px;
-  bottom: 420px;
-  width: 100px;
-  height: 250px;
-  float: left;
+#input:focus{
+	outline: 0px;  /* sacarle el contorno al escribir en un input */
+	
 }
 
-*/
+/* boton */
+
+.boton{
+	clear: both;
+  	color: #EDE9E2; /* color al texto */
+	padding: 13px 1px 13px 11px;
+	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+	position: relative;
+	left: 869px;
+	bottom: 264px;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #E54E79;
+	border-radius: 60px;
+}
+
+#corazon{
+  	color: #EDE9E2;
+	text-align: center;
+	font-size: 18px;
+	margin: 15px;
+}
