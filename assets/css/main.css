@@ -152,7 +152,7 @@ header{
 	clear: both;
 	position: relative;
 	bottom: 18px;
-	height: 560px;
+	height: 596px;
 }
 
 .franja{
@@ -175,5 +175,14 @@ header{
 	text-transform: uppercase;
 	font-size: 46px;
 	font-weight: bold;
+}
 
+.caja2{
+	clear: both;
+	width: 930px; /* ancho */
+	height: 284px; /* alto */
+	background: #EDE9E2;
+  position: relative;
+  left: 173px;
+	bottom: 582px;
 }
