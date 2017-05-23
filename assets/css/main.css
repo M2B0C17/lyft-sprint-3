@@ -13,8 +13,9 @@ body{
 	padding: 0;
 	margin: 0;
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg); 
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-repeat: no-repeat; /* para que la imagen de fondo no se repita */
+	background-size: 100%; /* colocamos la imagen en el tamañoñ total del navegador */
+	background-attachment: fixed; /* para fijar la imagen al hacer scroll */
 }
 
 /* Seccion 1 */
@@ -54,3 +55,13 @@ body{
 
 /* Seccion 2 */
 
+.base{
+	clear: left;
+	clear: both;
+	width: 500px; /* ancho */
+	height: 400px; /* alto */
+	background: white;
+  	position: relative;
+  	left: 832px;
+	bottom: -80px;
+}
