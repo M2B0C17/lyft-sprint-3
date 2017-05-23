@@ -1,5 +1,5 @@
 /*
-Colors: 
+Colors:
 #E54E79;
 #E56385;
 #00B2A9;
@@ -15,7 +15,7 @@ body{
 
 /* Seccion 1 */
 header{
-	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg); 
+	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-repeat: no-repeat; /* para que la imagen de fondo no se repita */
 	background-size: 100%; /* colocamos la imagen en el tamañoñ total del navegador */
 	background-attachment: fixed; /* para fijar la imagen al hacer scroll */
@@ -23,13 +23,13 @@ header{
 
 .menuPink{
 	background-color: #E54E79;
-	width: 1333px;
+	width: 1278px;
 	height: 60px;
 }
 
 .logito{
 	position: relative;
-  	left: 280px;;
+  left: 280px;;
 	top: 10px;
 }
 
@@ -37,7 +37,7 @@ header{
 	margin: 0; /* cero margen */
 	padding: 0; /* relleno : 0 */
 	display: inline-block;
-  	color: #EDE9E2; /* color al texto */
+  color: #EDE9E2; /* color al texto */
 	text-align: center;
 	padding: 26px;
 	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
@@ -56,17 +56,17 @@ header{
 
 .base{
 	clear: both;
-	width: 487px; /* ancho */
+	width: 445px; /* ancho */
 	height: 400px; /* alto */
 	background: #EDE9E2;
-  	position: relative;
-  	left: 832px;
+  position: relative;
+  left: 832px;
 	bottom: -80px;
 }
 
 .text2{
 	position: relative;
-  	left: 869px;
+  left: 869px;
 	bottom: 300px;
 	color: #00B2A9;
 	width: 350px;
@@ -77,7 +77,7 @@ header{
 .text3{
 	clear: both;
 	position: relative;
-  	left: 869px;
+  left: 869px;
 	bottom: 291px;
 	color: #75726C;
 	width: 183px;
@@ -91,25 +91,25 @@ header{
 #input{
 	clear: both;
 	position: relative;
-  	left: 869px;
+  left: 869px;
 	bottom: 291px;
 	width: 402px;
 	height: 35px;
 	border: none; /* sacar el borde tipico del input */
-	background-color: #EDE9E2; 
+	background-color: #EDE9E2;
 	border-bottom: 1px solid #75726C; /* linea bajo input */
 }
 
 #input:focus{
 	outline: 0px;  /* sacarle el contorno al escribir en un input */
-	
+
 }
 
 /* boton */
 
 .boton{
 	clear: both;
-  	color: #EDE9E2; /* color al texto */
+  color: #EDE9E2; /* color al texto */
 	padding: 13px 1px 13px 11px;
 	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
 	position: relative;
@@ -122,8 +122,25 @@ header{
 }
 
 #corazon{
-  	color: #EDE9E2;
+  color: #EDE9E2;
 	text-align: center;
 	font-size: 18px;
 	margin: 15px;
+}
+
+.boton:hover{
+	background-color: #E56385;
+}
+
+/* Texto en base */
+
+.text4{
+	clear: both;
+	position: relative;
+  left: 869px;
+	bottom: 243px;
+	color: #75726C;
+	width: 373px;
+	font-size: 14px;
+	font-weight: normal;
 }
