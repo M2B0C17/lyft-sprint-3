@@ -9,20 +9,21 @@ Colors:
 
 body{
 	font-family: 'Raleway', sans-serif;
-	background-color: whitesmoke;
 	padding: 0;
 	margin: 0;
+}
+
+/* Seccion 1 */
+header{
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg); 
 	background-repeat: no-repeat; /* para que la imagen de fondo no se repita */
 	background-size: 100%; /* colocamos la imagen en el tamañoñ total del navegador */
 	background-attachment: fixed; /* para fijar la imagen al hacer scroll */
 }
 
-/* Seccion 1 */
-
 .menuPink{
 	background-color: #E54E79;
-	width: 1333px;
+	width: 1318px;
 	height: 60px;
 }
 
@@ -33,10 +34,8 @@ body{
 }
 
 .enlaceNav a{
-	clear: left;
 	margin: 0; /* cero margen */
 	padding: 0; /* relleno : 0 */
-	overflow: hidden; /* overflow = Controla el comportamiento de los contenidos que no caben en su elemento contenedor. Hidden = oculto o ocultar. */
 	display: inline-block;
   	color: #EDE9E2; /* color al texto */
 	text-align: center;
@@ -56,12 +55,58 @@ body{
 /* Seccion 2 */
 
 .base{
-	clear: left;
 	clear: both;
-	width: 500px; /* ancho */
+	width: 487px; /* ancho */
 	height: 400px; /* alto */
-	background: white;
+	background: #EDE9E2;
   	position: relative;
   	left: 832px;
 	bottom: -80px;
 }
+
+.text2{
+	position: relative;
+  	left: 869px;
+	bottom: 300px;
+	color: #00B2A9;
+	width: 350px;
+	text-transform: uppercase;
+	font-size: 28px;
+}
+
+.text3{
+	clear: both;
+	position: relative;
+  	left: 869px;
+	bottom: 291px;
+	color: #75726C;
+	width: 183px;
+	font-size: 16px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#input{
+	clear: both;
+	position: relative;
+  	left: 869px;
+	bottom: 291px;
+	width: 402px;
+	height: 35px;
+	border:none;
+	background-color: #EDE9E2;
+	border-bottom: 1px solid #75726C; /* linea bajo input */
+}
+
+/*
+
+#corazon{
+  position: relative;
+  left: 565px;
+  bottom: 420px;
+  width: 100px;
+  height: 250px;
+  float: left;
+}
+
+*/
