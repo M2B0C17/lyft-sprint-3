@@ -12,17 +12,22 @@ body{
 	background-color: whitesmoke;
 	padding: 0;
 	margin: 0;
+	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg); 
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
-nav{
+/* Seccion 1 */
+
+.menuPink{
 	background-color: #E54E79;
-	width: 4000px;
+	width: 1333px;
 	height: 60px;
 }
 
 .logito{
 	position: relative;
-  	left: 323px;;
+  	left: 280px;;
 	top: 10px;
 }
 
@@ -38,7 +43,7 @@ nav{
 	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
 	color: white;
 	position: relative;
-	left: 980px;
+	left: 830px;
 	bottom: 50px;
 	height: 10px;
 }
@@ -46,3 +51,6 @@ nav{
 .enlaceNav a:hover{
 	background-color: #E56385;
 }
+
+/* Seccion 2 */
+
