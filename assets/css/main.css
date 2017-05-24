@@ -20,7 +20,7 @@ header{
 	background-repeat: no-repeat; /* para que la imagen de fondo no se repita */
 	background-size: 100%; /* colocamos la imagen en el tamañoñ total del navegador */
 	background-attachment: fixed; /* para fijar la imagen al hacer scroll */
-	border: thick transparent #000;
+
 	overflow: hidden;
 }
 
@@ -279,10 +279,16 @@ header{
 	height: 65px;
 }
 
+h2 #text6{
+	position: relative;
+	bottom: 0px;
+}
+
 #text6{
 	position: relative;
-  left: 100px;
+  left: 0;
 	bottom: 1143px;
+	padding: 0 0 0 102px;
 	color: #EDE9E2;
 	width: 350px;
 	font-size: 20px;
@@ -292,46 +298,51 @@ header{
 .text7{
 	clear: both;
 	position: relative;
-  left: 100px;
-	bottom: 1146px;
+  left: -3px;
+	bottom: 1137px;
 	color: #EDE9E2;
 	width: 350px;
 	font-size: 15px;
 	font-weight: 100;
+	padding: 0 0 0 102px;
 }
 
 .text8{
 	clear: both;
 	position: relative;
-  left: 889px;
-	bottom: 1221px;
+  left: 0;
+	bottom: 37px;
 	color: #EDE9E2;
 	width: 120px;
+	padding: 0 0 0 887px;
 }
 
-.text8 h2{
-	font-size: 20px;
-	font-weight: lighter;
-	width: 100px;
-}
 .text8 p{
 	font-size: 15px;
 	font-weight: lighter;
-	width: 120px;
+	width: 74px;
 }
 
 /* Iconos de Sorpresas */
 
-.sorpresas{
+#hH2{
+	color: #EDE9E2;
+	font-size: 20px;
+	font-weight: lighter;
+	height: 0;
+	width: 100%;
+	clear: both;
 	position: relative;
-	top: 191px;
+	bottom: 102px;
+	left: 0;
+	padding: 0 0 0 885px;
 }
 
 #bola1{
 	clear: both;
 	position: relative;
 	left: 889px;
-	bottom: 1383px;
+	bottom: -224px;
 	color: #E54E79;
 	font-size: 40px;
 }
@@ -340,7 +351,7 @@ header{
 	clear: both;
 	position: relative;
 	left: 849px;
-	bottom: 1333px;
+	bottom: -167px;
 	color: #E56385;
 	font-size: 40px;
 }
@@ -349,7 +360,7 @@ header{
 	clear: both;
 	position: relative;
 	left: 809px;
-	bottom: 1281px;
+	bottom: -109px;
 	color: #00B2A9;
 	font-size: 40px;
 }
@@ -358,22 +369,25 @@ header{
 	clear: both;
 	position: relative;
 	left: 769px;
-	bottom: 1229px;
+	bottom: -54px;
 	color: #EDE9E2;
 	font-size: 40px;
 }
 
 .textUltimos{
 	color: #EDE9E2;
-	width: 120px;
+	width: 67px;
+	height: 24px;
 	font-size: 13px;
+	position: relative;
+	bottom: 751px;
 }
 
 .textUltimos p{
 	clear: both;
 	position: relative;
 	left: 100px;
-	bottom: 870px;
+	bottom: -1px;
 	width: 184px;
 }
 
@@ -381,7 +395,7 @@ header{
 	clear: both;
 	position: relative;
 	left: 1049px;
-	bottom: 898px;
+	bottom: 28px;
 	width: 100px;
 }
 
@@ -401,4 +415,26 @@ header{
 	clear: both;
 	position: relative;
 	bottom: 0;
+}
+
+.seccion4{
+	height: 0;
+	width: 100%;
+	clear: both;
+	position: relative;
+	bottom: 0;
+}
+
+#s{
+	position: relative;
+	bottom: -20px;
+}
+
+.iconosSec4{
+	height: 0;
+	width: 100%;
+	clear: both;
+	position: relative;
+	bottom: 1150px;
+	background: red;
 }
