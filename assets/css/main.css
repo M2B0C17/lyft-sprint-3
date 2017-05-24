@@ -102,7 +102,6 @@ header{
 
 #input:focus{
 	outline: 0px;  /* sacarle el contorno al escribir en un input */
-
 }
 
 /* boton */
@@ -185,4 +184,56 @@ header{
   position: relative;
   left: 173px;
 	bottom: 582px;
+}
+
+/* Iconos - Seccion 3*/
+#auto1, #auto2{
+	clear: both;
+  font-size: 30px;
+	background: #EDE9E2;
+  position: relative;
+}
+
+#auto1{
+	left: 206px;
+	bottom: 817px;
+}
+
+#auto2{
+	left: 661px;
+	bottom: 847px;
+}
+
+/* input - Seccion 3 */
+
+#input2, #input3{
+	width: 342px;
+	height: 35px;
+	border: none; /* sacar el borde tipico del input */
+	background-color: #EDE9E2;
+	border-bottom: 1px solid #75726C; /* linea bajo input */
+	font-weight: bold;
+}
+
+#input2{
+	clear: both;
+	position: relative;
+  left: 255px;
+	bottom: 883px;
+}
+
+#input3{
+	clear: both;
+	position: relative;
+  left: 363px;
+	bottom: 883px;
+}
+
+#input2::-webkit-input-placeholder, #input3::-webkit-input-placeholder { /* cambiar el color del placeholder */
+    /* Google Chrome y Safari */
+    color: #D4D0C9;
+}
+
+#input2:focus, #input3:focus{
+	outline: 0px;  /* sacarle el contorno al escribir en un input */
 }
