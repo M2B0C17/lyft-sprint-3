@@ -20,6 +20,8 @@ header{
 	background-repeat: no-repeat; /* para que la imagen de fondo no se repita */
 	background-size: 100%; /* colocamos la imagen en el tamañoñ total del navegador */
 	background-attachment: fixed; /* para fijar la imagen al hacer scroll */
+	border: thick transparent #000;
+	overflow: hidden;
 }
 
 .menuPink{
@@ -47,6 +49,7 @@ header{
 	left: 830px;
 	bottom: 50px;
 	height: 10px;
+
 }
 
 .enlaceNav a:hover{
@@ -262,7 +265,7 @@ header{
 	background-color: #75726C;
 	clear: both;
 	position: relative;
-	bottom: 665px;
+	bottom: 608px;
 	height: 545px;
 }
 
@@ -271,7 +274,7 @@ header{
 	clear: both;
 	position: relative;
   left: 0;
-	bottom: 668px;
+	bottom: 609px;
 	width: 1278px;
 	height: 65px;
 }
@@ -279,7 +282,7 @@ header{
 #text6{
 	position: relative;
   left: 100px;
-	bottom: 1199px;
+	bottom: 1143px;
 	color: #EDE9E2;
 	width: 350px;
 	font-size: 20px;
@@ -290,7 +293,7 @@ header{
 	clear: both;
 	position: relative;
   left: 100px;
-	bottom: 1201px;
+	bottom: 1146px;
 	color: #EDE9E2;
 	width: 350px;
 	font-size: 15px;
@@ -301,7 +304,7 @@ header{
 	clear: both;
 	position: relative;
   left: 889px;
-	bottom: 1270px;
+	bottom: 1221px;
 	color: #EDE9E2;
 	width: 120px;
 }
@@ -321,7 +324,7 @@ header{
 
 .sorpresas{
 	position: relative;
-	top: 124px;
+	top: 191px;
 }
 
 #bola1{
@@ -370,7 +373,7 @@ header{
 	clear: both;
 	position: relative;
 	left: 100px;
-	bottom: 934px;
+	bottom: 870px;
 	width: 184px;
 }
 
@@ -378,6 +381,24 @@ header{
 	clear: both;
 	position: relative;
 	left: 1049px;
-	bottom: 962px;
+	bottom: 898px;
 	width: 100px;
+}
+
+/* Arreglos */
+
+.seccion3{
+	height: 1185px;
+	width: 100%;
+	clear: both;
+	position: relative;
+	bottom: 0;
+}
+
+#footer{
+	height: 1px;
+	width: 100%;
+	clear: both;
+	position: relative;
+	bottom: 0;
 }
