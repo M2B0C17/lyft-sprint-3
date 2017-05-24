@@ -438,3 +438,22 @@ h2 #text6{
 	bottom: 1150px;
 	background: red;
 }
+
+
+/* Tablero */
+#tabF{
+  border: 5px solid #900C3F;
+}
+
+.casilla{
+  box-sizing: border-box;
+  /*Es mejor con float:left*/
+  display:inline-block;
+  background-color: #581845;
+  color: whitesmoke;
+  padding: 10px;
+  font-family: sans-serif;
+  width: 10%;
+  text-align: center;
+  border: 5px #900C3F solid;
+}

@@ -1,11 +1,4 @@
 // Validando telefono
-	/*
-function botonValid(){
-
-	var boton = document.getElementById("botonValid").value; // Conectar el id del a en html que será el boton
-	
-	function validar(){
-	*/
 
 	var boton = document.getElementById("botonValid");
 	boton.addEventListener("click", function(){
@@ -20,3 +13,41 @@ function botonValid(){
 		alert("Debe ingresar 9 numeros");
 	}
 }); 
+
+// Tablero cueck
+//Defino el tablero
+var botonStart = document.getElementById("start");
+
+
+
+
+var tab = [
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0]
+]
+
+//Ingreso el auto en la posicion 6,4
+tablero[6][4] = "A";
+
+//Obtengo el div en donde se dibujará el tablero
+var divTab = document.getElementById("tabF");
+
+//Variables temporales
+var fila, casilla; // variables para el usuario
+
+//Recorro el arreglo para dibujar el tablero
+for(var i = 0; i<tab.length; i++){
+  fila = document.createElement("div");
+  fila.classList.add("fila");
+  for(var j = 0; j<tab[i].length; j++){
+    casilla = document.createElement("div");
+    casilla.innerHTML = tab[i][j];
+    casilla.classList.add("casilla")
+    fila.appendChild(casilla);
+  }
+  divTab.appendChild(fila);
+}
