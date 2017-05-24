@@ -254,3 +254,129 @@ header{
 	background: #00B2A9;
 	border-radius: 60px;
 }
+
+/* seccion 4 */
+
+.fondo2{
+	background-color: #75726C;
+	clear: both;
+	position: relative;
+	bottom: 665px;
+	height: 545px;
+}
+
+.franja2{
+	background-color: #5E5953;
+	clear: both;
+	position: relative;
+  left: 0;
+	bottom: 668px;
+	width: 1278px;
+	height: 65px;
+}
+
+#text6{
+	position: relative;
+  left: 100px;
+	bottom: 1199px;
+	color: #EDE9E2;
+	width: 350px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.text7{
+	clear: both;
+	position: relative;
+  left: 100px;
+	bottom: 1201px;
+	color: #EDE9E2;
+	width: 350px;
+	font-size: 15px;
+	font-weight: 100;
+}
+
+.text8{
+	clear: both;
+	position: relative;
+  left: 889px;
+	bottom: 1270px;
+	color: #EDE9E2;
+	width: 120px;
+}
+
+.text8 h2{
+	font-size: 20px;
+	font-weight: lighter;
+	width: 100px;
+}
+.text8 p{
+	font-size: 15px;
+	font-weight: lighter;
+	width: 120px;
+}
+
+/* Iconos de Sorpresas */
+
+.sorpresas{
+	position: relative;
+	top: 124px;
+}
+
+#bola1{
+	clear: both;
+	position: relative;
+	left: 889px;
+	bottom: 1383px;
+	color: #E54E79;
+	font-size: 40px;
+}
+
+#bola2{
+	clear: both;
+	position: relative;
+	left: 849px;
+	bottom: 1333px;
+	color: #E56385;
+	font-size: 40px;
+}
+
+#bola3{
+	clear: both;
+	position: relative;
+	left: 809px;
+	bottom: 1281px;
+	color: #00B2A9;
+	font-size: 40px;
+}
+
+#bola4{
+	clear: both;
+	position: relative;
+	left: 769px;
+	bottom: 1229px;
+	color: #EDE9E2;
+	font-size: 40px;
+}
+
+.textUltimos{
+	color: #EDE9E2;
+	width: 120px;
+	font-size: 13px;
+}
+
+.textUltimos p{
+	clear: both;
+	position: relative;
+	left: 100px;
+	bottom: 934px;
+	width: 184px;
+}
+
+.textUltimos a{
+	clear: both;
+	position: relative;
+	left: 1049px;
+	bottom: 962px;
+	width: 100px;
+}
