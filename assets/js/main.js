@@ -16,7 +16,22 @@
 
 // Tablero cueck
 //Defino el tablero
-var botonStart = document.getElementById("start");
+// Validando Maximos de numeros en tablero
+
+	var botonsito = document.getElementById("start");
+	botonsito.addEventListener("click", function(){
+
+	var inputA = document.getElementById("input2").value;
+	var inputB = document.getElementById("input3").value;
+
+	var expresionRegular3 = /^([0-9])/; // max numeros
+
+	if(inputA === "" || inputB === ""){
+		alert("Debe ingresar una coordenada");
+	}else if (inputA.length > expresionRegular3 || inputB.length > expresionRegular3){
+		alert("Debes colocar coordenadas desde 1 - 10");
+	}
+});
 
 
 
@@ -52,19 +67,3 @@ for(var i = 0; i<tab.length; i++){
   divTab.appendChild(fila);
 }
 
-// Validando Maximos de numeros en tablero
-
-	var botonsito = document.getElementById("start");
-	botonsito.addEventListener("click", function(){
-
-	var inputA = document.getElementById("input2").value;
-	var inputB = document.getElementById("input3").value;
-
-	var expresionRegular3 = /^([0-9])/; // max numeros
-
-	if(inputA === "" || inputB === ""){
-		alert("Debe ingresar una coordenada");
-	}else if (inputA.length > expresionRegular3 || inputB.length > expresionRegular3){
-		alert("Debes colocar coordenadas desde 1 - 10");
-	}
-});

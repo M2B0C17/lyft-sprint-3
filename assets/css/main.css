@@ -28,11 +28,12 @@ header{
 	background-color: #E54E79;
 	width: 1278px;
 	height: 60px;
+	padding: 0 0 0 40px;
 }
 
 .logito{
 	position: relative;
-  left: 280px;;
+  	left: 280px;;
 	top: 10px;
 }
 
@@ -154,30 +155,32 @@ header{
 	background-color: #00B2A9;
 	clear: both;
 	position: relative;
-	bottom: 18px;
-	height: 596px;
+	bottom: 8px;
+	height: 651px;
 }
 
 .franja{
 	background-color: #EDE9E2;
 	clear: both;
 	position: relative;
-  left: 0;
+  	left: 0;
 	bottom: 500px;
 	width: 1278px;
 	height: 97px;
+	padding: 0 0 0 40px;
 }
 
 #text5{
 	clear: both;
 	position: relative;
-  left: 454px;
+  	left: 0;
 	bottom: 622px;
 	color: #75726C;
 	width: 367px;
 	text-transform: uppercase;
 	font-size: 46px;
 	font-weight: bold;
+	padding: 0 0 0 413px;
 }
 
 .caja2{
@@ -273,10 +276,11 @@ header{
 	background-color: #5E5953;
 	clear: both;
 	position: relative;
-  left: 0;
+  	left: 0;
 	bottom: 609px;
 	width: 1278px;
 	height: 65px;
+	padding: 0 0 0 40px;
 }
 
 h2 #text6{
@@ -422,7 +426,7 @@ h2 #text6{
 	width: 100%;
 	clear: both;
 	position: relative;
-	bottom: 0;
+	bottom: -64px;
 }
 
 #s{
