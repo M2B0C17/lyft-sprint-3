@@ -192,16 +192,17 @@ header{
   font-size: 30px;
 	background: #EDE9E2;
   position: relative;
+	color: #75726C;
 }
 
 #auto1{
 	left: 206px;
-	bottom: 817px;
+	bottom: 773px;
 }
 
 #auto2{
 	left: 661px;
-	bottom: 847px;
+	bottom: 804px;
 }
 
 /* input - Seccion 3 */
@@ -219,14 +220,14 @@ header{
 	clear: both;
 	position: relative;
   left: 255px;
-	bottom: 883px;
+	bottom: 843px;
 }
 
 #input3{
 	clear: both;
 	position: relative;
   left: 363px;
-	bottom: 883px;
+	bottom: 843px;
 }
 
 #input2::-webkit-input-placeholder, #input3::-webkit-input-placeholder { /* cambiar el color del placeholder */
@@ -236,4 +237,20 @@ header{
 
 #input2:focus, #input3:focus{
 	outline: 0px;  /* sacarle el contorno al escribir en un input */
+}
+
+/* boton - seccion 3 */
+
+.boton2{
+	clear: both;
+  color: #EDE9E2; /* color al texto */
+	padding: 28px 405px 25px 405px;
+	text-decoration: none; /* le quitamos el sibrayado por defecto que tienen los enlaces */
+	position: relative;
+	left: 203px;
+	bottom: 783px;
+	font-size: 15px;
+	text-transform: uppercase;
+	background: #00B2A9;
+	border-radius: 60px;
 }
